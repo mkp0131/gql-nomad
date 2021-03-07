@@ -1,11 +1,8 @@
-import { people, findPerson } from "./db";
+import { getMovies } from "./db";
 
 const resolvers = {
   Query: {
-    people: () => people,
-    person: (_, { id }) => {
-      return findPerson(id);
-    },
+    movies: (_, { limit, minimum_rating }) => getMovies(limit, minimum_rating),
   },
 };
 

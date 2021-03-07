@@ -4,7 +4,8 @@
     "@babel/core": "^7.13.8",
     "@babel/node": "^7.13.0",
     "@babel/preset-env": "^7.13.9",
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
   },
   "name": "gql-nomad",
   "description": "1. over-fetching: 쓰지않는 데이터도 db에서 받아오는 것. 2. under-fetching: 하나의 data을 완성하기 위해 많은 소스에서 data를 요청하는 것.",
