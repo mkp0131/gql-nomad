@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.9",
+    "graphql-yoga": "^1.18.3"
+  },
+  "name": "gql-nomad",
+  "description": "1. over-fetching: 쓰지않는 데이터도 db에서 받아오는 것. 2. under-fetching: 하나의 data을 완성하기 위해 많은 소스에서 data를 요청하는 것.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkp0131/gql-nomad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkp0131/gql-nomad/issues"
+  },
+  "homepage": "https://github.com/mkp0131/gql-nomad#readme"
+}
